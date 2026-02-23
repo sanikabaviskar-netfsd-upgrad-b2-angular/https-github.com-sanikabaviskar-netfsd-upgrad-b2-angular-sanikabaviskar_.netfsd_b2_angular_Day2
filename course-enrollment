@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Online Learning Platform - Course Enrollment</h1>
+</header>
+
+<main>
+
+    <section>
+        <h2>Enrollment Completion</h2>
+        <progress value="60" max="100">60%</progress>
+        <p>Form Completion: 60%</p>
+    </section>
+
+    <hr>
+    <section>
+        <h2>Enroll Now</h2>
+
+        <form action="#" method="post">
+
+            <!-- Full Name -->
+            <div>
+                <label for="fullname">Full Name:</label><br>
+                <input 
+                    type="text" 
+                    id="fullname" 
+                    name="fullname" 
+                    required
+                    minlength="3"
+                    placeholder="Enter your full name">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required
+                    placeholder="example@email.com">
+            </div>
+
+            <br>
+            <div>
+                <label for="course">Select Course:</label><br>
+                <input 
+                    list="courses" 
+                    id="course" 
+                    name="course" 
+                    required
+                    placeholder="Start typing course name">
+
+                <datalist id="courses">
+                    <option value="HTML Fundamentals">
+                    <option value="CSS Mastery">
+                    <option value="JavaScript Basics">
+                    <option value="React Development">
+                    <option value="Python Programming">
+                </datalist>
+            </div>
+
+            <br>
+            <div>
+                <label>Skill Level (Beginner to Advanced):</label><br>
+                <meter min="0" max="100" value="40">40%</meter>
+                <p>40% - Beginner Level</p>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="experience">Years of Experience:</label><br>
+                <input 
+                    type="range" 
+                    id="experience" 
+                    name="experience" 
+                    min="0" 
+                    max="10" 
+                    value="2">
+                <p>0 to 10 years</p>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="age">Age:</label><br>
+                <input 
+                    type="number" 
+                    id="age" 
+                    name="age" 
+                    required
+                    min="16"
+                    max="60"
+                    placeholder="Enter your age">
+            </div>
+
+            <br>
+
+            <div>
+                <button type="submit">Submit Enrollment</button>
+            </div>
+
+        </form>
+    </section>
+
+</main>
+
+</body>
+</html>
