@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Training Portal - Home</title>
+</head>
+<body>
+
+<header>
+    <h1>Training Portal</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="courses/index.html">Courses</a>
+</nav>
+
+<main>
+    <h2>Welcome to Our Training Portal</h2>
+    <p>Select a course to start learning.</p>
+</main>
+
+</body>
+</html>
+..........................................................................................................................................................................................................................
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+</head>
+<body>
+
+<header>
+    <h1>Courses</h1>
+</header>
+
+<nav>
+    <a href="../index.html">Home</a> |
+    <a href="index.html">Courses</a>
+</nav>
+
+<nav aria-label="breadcrumb">
+    <a href="../index.html">Home</a> >
+    <span>Courses</span>
+</nav>
+
+<main>
+    <h2>Available Categories</h2>
+    <ul>
+        <li><a href="web-development/index.html">Web Development</a></li>
+    </ul>
+</main>
+
+</body>
+</html>
+
+.................................................................................................................................................................................................................
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Development</title>
+</head>
+<body>
+
+<header>
+    <h1>Web Development</h1>
+</header>
+
+<nav>
+    <a href="../../index.html">Home</a> |
+    <a href="../index.html">Courses</a>
+</nav>
+
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+    <a href="../../index.html">Home</a> >
+    <a href="../index.html">Courses</a> >
+    <span>Web Development</span>
+</nav>
+
+<main>
+    <h2>Web Development Courses</h2>
+    <ul>
+        <li><a href="html-course.html">HTML Course</a></li>
+    </ul>
+</main>
+
+</body>
+</html>
+.................................................................................................................................................................................................................
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Course</title>
+</head>
+<body>
+
+<header>
+    <h1>HTML Course</h1>
+</header>
+
+<nav>
+    <a href="../../index.html">Home</a> |
+    <a href="../index.html">Courses</a>
+</nav>
+
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+    <a href="../../index.html">Home</a> >
+    <a href="../index.html">Courses</a> >
+    <a href="index.html">Web Development</a> >
+    <span>HTML</span>
+</nav>
+
+<main>
+    <h2>About HTML Course</h2>
+    <p>This course teaches the fundamentals of HTML5.</p>
+</main>
+
+</body>
+</html>
