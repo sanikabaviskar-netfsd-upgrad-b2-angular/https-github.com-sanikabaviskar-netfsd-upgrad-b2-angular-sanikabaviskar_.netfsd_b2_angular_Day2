@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coaching Institute - Home</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Bright Future Coaching Institute</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="#about">About Us</a> |
+        <a href="https://www.facebook.com" target="_blank">Our Facebook</a>
+    </nav>
+
+    <main>
+        <h2>Home Page</h2>
+        <p>This is the home page of our coaching institute website.</p>
+
+        <h2 id="about">About Us</h2>
+        <p>
+            Bright Future Coaching Institute provides quality education
+            for competitive exams and academic excellence.
+        </p>
+    </main>
+
+</body>
+</html>
+.................................................................................................................................................................................................................
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coaching Institute - Courses</title>
+</head>
+<body>
+
+    <header>
+        <h1>Our Courses</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="index.html#about">About Us</a> |
+        <a href="https://www.facebook.com" target="_blank">Our Facebook</a>
+    </nav>
+
+    <main>
+        <h2>Available Courses</h2>
+        <ul>
+            <li>SSC Preparation</li>
+            <li>Banking Exams</li>
+            <li>MPSC Preparation</li>
+            <li>Foundation Batch (8th–10th)</li>
+        </ul>
+    </main>
+
+</body
+</html>
+................................................................................................................................................................................................................
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coaching Institute - Contact</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="index.html#about">About Us</a> |
+        <a href="https://www.facebook.com" target="_blank">Our Facebook</a>
+    </nav>
+
+    <main>
+        <h2>Get in Touch</h2>
+        <p>Email: info@brightfuture.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Address: Mumbai, Maharashtra, India</p>
+    </main>
+
+</body>
+</html>
+
+
